@@ -1,0 +1,95 @@
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255, 0.95);
+    height: 60px;
+    padding: 0 15px;
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.2);
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logoInc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.logoInc  a{
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul a{
+    margin: 5px 10px;
+    list-style: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navbar ul a:hover {
+    background-color: red;
+    color: white;
+
+}
+
+.navbar ul li {
+    margin: 5px 10px;
+    list-style: none;
+    border: none;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navbar button {
+    border: none;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.navbar button:hover {
+    background-color: red;
+    color: white;
+
+}
+
+.navbar h2 {
+    color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar ul {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .navbar button {
+        font-size: 12px;
+        padding: 0;
+    }
+    
+}
